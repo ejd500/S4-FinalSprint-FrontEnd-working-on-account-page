@@ -1,0 +1,55 @@
+.activity-name{
+    background-color: rgba(42, 123, 119);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Inter;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.activity-form{
+    background-color: rgba(211, 250, 250, 0.473);
+    height: 100%;
+    width: 100%;
+    min-width: 400px;
+}
+.activity-form p{
+    color: rgba(42, 123, 119);
+    font-size: 12pt;
+}
+.activity-image-text{
+    display: flex;
+    height: fit-content;
+}
+.activityImage{
+    width: 50%;
+}
+.activity-textbox{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 100%;
+    gap: 16px;
+}
+#activityDescription{
+    margin-top: 24px;
+}
+#activityDate{
+    margin-top: 8px;
+}
+
+.activity-textbox button{
+    background-color: rgba(255, 138, 152);
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 12pt;
+    width: 140px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+

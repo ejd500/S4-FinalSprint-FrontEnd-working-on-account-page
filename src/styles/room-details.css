@@ -1,0 +1,71 @@
+.roomBookingDetails{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* width: 400px; */
+    /* background-color: aqua; */
+}
+.room-name{
+    background-color: rgba(42, 123, 119);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    font-family: Inter;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+}
+
+.room-num {
+    visibility: hidden;
+}
+
+.room-form{
+    display: flex;
+    background-color: rgba(211, 250, 250, 0.473);
+}
+.room-form p{
+    color: teal;
+    font-size: 12pt;
+}
+.room-textbox{
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    width: 50%;
+}
+.roomDescription{
+    margin-bottom: 16px;
+}
+.occupancy-beds{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.symbols-box{
+    width: fit-content;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.symbols{
+    width: 28px;
+}
+
+.room-textbox button{
+    background-color: rgba(255, 138, 152);
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 12pt;
+    width: 140px;
+}
+
